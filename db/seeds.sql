@@ -24,4 +24,8 @@ INSERT INTO burgers
     (burger_name, devoured)
 VALUES
     ('Turkey avocado Burger', true);
+<<<<<<< HEAD
     (burger_name, devoured)
+=======
+    (burger_name, devoured)
+>>>>>>> e929b44f1d9e2d1d5511ff1cd0adedd263451b19
