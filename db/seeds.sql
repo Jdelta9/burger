@@ -24,3 +24,4 @@ INSERT INTO burgers
     (burger_name, devoured)
 VALUES
     ('Turkey avocado Burger', true);
+    (burger_name, devoured)
