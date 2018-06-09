@@ -19,13 +19,13 @@
 
  h1 {
  	text-align: center;
- 	font-family: 'Fontdiner Swanky', cursive;
+ 	font-family: 'serif';
  	font-size: 65px;
  	margin: 50px;
  }
 
  .burgerAvailable {
- 	font-family: 'Crafty Girls', cursive;
+ 	font-family: 'serif';
  	font-weight: normal;
  	font-size: 20px;
  	text-align: center;
@@ -43,7 +43,7 @@
  }
 
  .burgerEaten {
- 	font-family: 'Crafty Girls', cursive;
+ 	font-family: 'serif';
  	font-weight: normal;
  	font-size: 20px;
  	text-align: center;
