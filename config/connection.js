@@ -1,5 +1,5 @@
 //require the module
-var sql = require('mysql');
+var mysql = require('mysql');
 // Create the MySQL connection object
 var connection;
     // DB is local on localhost
@@ -9,8 +9,7 @@ var connection;
         user: 'root',
         password: '',
         database: 'burgers_db'
-    })
-};
+    });
 
 // Make the connection to MySQL
 connection.connect(function (err) {
