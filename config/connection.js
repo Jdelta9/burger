@@ -2,6 +2,17 @@
 var mysql = require('mysql');
 // Create the MySQL connection object
 var connection;
+
+if (Process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+    } else {
+        connection = mysql.createConnection({
+         host: 'localhost',
+         user: 'root',
+         password: 'hacktheplanet',
+         database: 'todoagain_db'
+        });
+    };
     // DB is local on localhost
     connection = mysql.createConnection({
         port: 3306,
@@ -21,4 +32,4 @@ connection.connect(function (err) {
 });
 
 // Export connection for ORM use
-module.exports = connection
+module.exports = connection;
